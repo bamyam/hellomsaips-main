@@ -7,19 +7,19 @@ replicaCount: 1
 services:
   frontendapp:
     name: frontendapp
-    image: "siestageek/frontendapp" # Replace with your actual image name
+    image: "bamyam/frontendapp" # Replace with your actual image name
     tag: latest
     port: 3000
 
   productapp:
     name: productapp  
-    image: "siestageek/productapp" # Replace with your actual image name
+    image: "bamyam/productapp" # Replace with your actual image name
     tag: latest
     port: 8000
 
   userapp:
     name: userapp  
-    image: "siestageek/userapp" # Replace with your actual image name
+    image: "bamyam/userapp" # Replace with your actual image name
     tag: latest
     port: 8010
 
